@@ -43,7 +43,8 @@
             <h6 class="mb-0">Longer blog post title: This one has multiple lines!</h6>
             <small class="text-body-secondary">January 13, 2024</small>
           </div>
-        </a> </li>
+        </a>
+      </li>
     </ul>
   </div> -->
   <div class="p-4">
