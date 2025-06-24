@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\FeedAggregator;
 use App\Services\FeedReader;
 
@@ -10,38 +9,41 @@ class SiteController extends Controller
 {
   public function index()
   {
-    $reader = new FeedReader();
-    $data = $reader->read('https://laracasts.com/feed');
-    return view('index', compact(['data']));
+    return view('index');
   }
 
-//   public function category(string $category)
-//   {
-//     return view('category');
-//   }
-
-  public function show(string $category, string $group, string $feed)
+  public function details(string $category, string $group, string $feedSlug)
   {
     $feedsCategories = new FeedAggregator();
     $allFeeds = $feedsCategories->getAllFeeds();
 
+    if (!isset($allFeeds[$category])) {
+        // TODO throw error not found
+    }
+
     // TODO search the category, group and $feed URL to parse, show the list of news with link to a new
     // echo "<pre>". print_r($allFeeds[$category], 1). "</pre>"; exit;
 
-    // if (!empty($allFeeds[$category])) {
-    //     foreach($allFeeds[$category] as $feed) {
-    //         foreach($feed['feeds'] as $elem) {
-    //             if ($elem['slug'] == $feed) {
-    //                 return $elem;
-    //             }
-    //         }
-    //     }
-    // }
+    $feed = null;
+    foreach($allFeeds[$category]['newsgroup'] as $newsgroup) {
+        // echo "<pre>". print_r($newsgroup , 1). "</pre>";
+
+        foreach($newsgroup['feeds'] as $rssFeed) {
+            if ($rssFeed['slug'] === $feedSlug) {
+                $feed = $rssFeed;
+                break;
+            }
+        }
+    }
+
+    if (!$feed) {
+        // TODO throw error not found
+    }
 
     $reader = new FeedReader();
-    $data = $reader->read('https://laracasts.com/feed');
-    return view('show', compact(['data']));
-  }
+    $data = $reader->read($feed['url']);
 
+    return view('details', compact(['data', 'feed']));
+  }
 
 }

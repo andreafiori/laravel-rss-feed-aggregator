@@ -12,21 +12,21 @@
     $params = Route::current()->parameters();
   @endphp
 
-  <div class="p-4">
+  <div>
     @foreach ($feeds as $feedGroup)
         <h4 class="fst-italic">{{ $feedGroup['label'] }}</h4>
-        @foreach($feedGroup['feeds'] as $feed)
-            <div>{{ $feed['label']  }}</div>
-            <ul class="list-unstyled mb-0 ps-4">
+        @foreach($feedGroup['newsgroup'] as $feed)
+            <h5 class="fst-italic">{{ $feed['label']  }}</h5>
+            <ul class="list-unstyled mb-0 ps-2">
                 @foreach ($feed['feeds'] as $fd)
-                    <li><a href="/feed/{{ $feedGroup['slug'] }}/{{ $feed['slug'] }}/{{ $fd['slug'] }}">{{ $fd['label'] }}</a></li>
+                    <li>
+                        <i class="fa fa-rss"></i> <a href="/feed/{{ $feedGroup['slug'] }}/{{ $feed['slug'] }}/{{ $fd['slug'] }}">
+                            {{ $fd['label'] }}
+                        </a>
+                    </li>
                 @endforeach
             </ul>
-            <!-- @if(!isset($feed['label']))
-            <pre>{{ print_r($feed, 1) }}</pre>
-            @endif -->
         @endforeach
     @endforeach
   </div>
-
 </div>

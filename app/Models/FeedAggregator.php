@@ -2,6 +2,11 @@
 
 namespace App\Models;
 
+use App\Models\SoftwareDevelopmentFeeds;
+use App\Models\CybersecurityFeeds;
+use App\Models\GamingFeeds;
+
+
 class FeedAggregator
 {
     public function getFeedsCategories()
@@ -10,37 +15,37 @@ class FeedAggregator
             // 'news' => [
             //     'label' => 'News',
             //     'slug' => 'news',
-            //     'feeds' => []
+            //     'newsgroup' => []
             // ],
             'software-development' => [
                 'label' => 'Software Development',
                 'slug' => 'software-development',
-                'feeds' => []
+                'newsgroup' => []
             ],
-            'sports' => [
-                'label' => 'Sports',
-                'slug' => 'sports',
-                'feeds' => [],
-            ],
+            // 'sports' => [
+            //     'label' => 'Sports',
+            //     'slug' => 'sports',
+            //     'newsgroup' => [],
+            // ],
             'cyber-security' => [
                 'label' => 'Cyber Security',
                 'slug' => 'cyber-security',
-                'feeds' => [],
+                'newsgroup' => [],
             ],
             'gaming' => [
                 'label' => 'Gaming',
                 'slug' => 'gaming',
-                'feeds' => [],
+                'newsgroup' => [],
             ],
-
         ];
     }
 
     public function getAllFeeds()
     {
         $categories = $this->getFeedsCategories();
-        $categories['software-development']['feeds'] = (new SoftwareDevelopmentFeeds())->getFeeds();
-        $categories['cyber-security']['feeds'] = (new CybersecurityFeeds())->getFeeds();
+        $categories['software-development']['newsgroup'] = (new SoftwareDevelopmentFeeds())->getFeeds();
+        $categories['cyber-security']['newsgroup'] = (new CybersecurityFeeds())->getFeeds();
+        $categories['gaming']['newsgroup'] = (new GamingFeeds())->getFeeds();
 
         return $categories;
     }

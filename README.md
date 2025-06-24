@@ -2,13 +2,32 @@
 
 An RSS feed reader developed with Laravel.
 News are multi-language.
+RSS are stored in PHP array because they were migrated from my original andreafiori.net. I started with some newsgroups but now I have so many.
+
+## Installation
+
+Install Laravel and dependencies:
+
+    composer install
+
+Frontend
+
+    npm install && npm run dev
+
+## Running
+
+    cd <your-project-directory>
+    npm run dev
+
+    cd <your-project-directory>
+    php artisan serve
 
 ### Technologies
 
 - [PHP](https://www,php.net) - hypertext processor.
 - [Laravel](https://www,laravel.com) - the web framework for artisans.
 - [Vite](https://vite.dev/) frontend tool.
-- SimplePie PHP RSS reader and XML parser.
+- [SimplePie])(https://simplepie.org) PHP RSS reader and XML parser.
 
 ### Topics
 
@@ -17,16 +36,31 @@ News are multi-language.
 - Cybersecurity
 - Gaming
 
+### Laravel cleaning commands
+
+    php artisan cache:clear
+    php artisan route:cache
+    php artisan config:cache
+    php artisan view:clear
+
 ### TODO
 
-- Controllers
-- Layout
+- Spinner\Loader waiting until RSS xml is parsed
+- Show social icons for newsgroup details
+- Feeds URLs checker
 - Favicon
+- Breadcrumb
 - Meta tags
-- Feed storage
-- Feed listing
-- Feed news viewer
+- 404 page
+- List by macro category
+- Listing feeds
+- Feed view external website in an iframe checking URL
+- Testing
+- Migration from array to database with models and seeds
+- Admin area
+- Minify HTML,CSS,JS
+- Unit tests
 
 ## Author
 
-- AndreaFiori.net - full-stack developer
+- [AndreaFiori.net](https://www.andreafiori.net) - full-stack developer
