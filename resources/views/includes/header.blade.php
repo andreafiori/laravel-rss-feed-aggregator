@@ -71,18 +71,18 @@
                     </svg>
                 </a> -->
 
-                    <!-- <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a> -->
-                </div>
+                <!-- <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a> -->
+            </div>
         </div>
     </header>
 
     <div class="nav-scroller py-1 mb-3 border-bottom">
         <nav class="nav nav-underline justify-content-between">
-            <a class="nav-item nav-link link-body-emphasis active" href="#">Home</a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">News</a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">Software development</a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">Cyber security</a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">Gaming</a>
+            <a class="nav-item nav-link link-body-emphasis active" href="/" title="Back to the home page">Home</a>
+            <!-- Feed categories list -->
+            @foreach ($feedsCategories as $category)
+                <a class="nav-item nav-link link-body-emphasis" href="#">{{ $category['label'] }}</a>
+            @endforeach
         </nav>
     </div>
 

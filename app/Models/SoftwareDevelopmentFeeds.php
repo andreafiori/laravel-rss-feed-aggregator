@@ -2,14 +2,29 @@
 
 namespace App\Models;
 
-class SoftwareDevelopmentFeeds
+class SoftwareDevelopmentFeeds implements FeedsListInterface
 {
-    public function getFeeds() {
+    public function getFeeds()
+    {
         return [
             [
                 'label' => 'PHP software development',
                 'slug'  => 'php-software-development',
                 'feeds' => [
+                    // [
+                    //     'label'         => '',
+                    //     'slug'          => '',
+                    //     'url'           => '',
+                    //     'description'   => '',
+                    //     'website'       => '',
+                    //     'facebook'      => '',
+                    //     'twitter'       => '',
+                    //     'linkedin'      => '',
+                    //     'youtube'       => '',
+                    //     'github'        => '',
+                    //     'keywords'      => '',
+                    //     'og_image'      => '',
+                    // ],
                     [
                         'label'         => 'PHP.net official website',
                         'slug'          => 'php-net',
@@ -136,26 +151,6 @@ class SoftwareDevelopmentFeeds
                         'keywords'      => '',
                         'og_image'      => '',
                     ],
-                ],
-            ],
-            [
-                'label' => 'PHP Developers',
-                'slug'  => 'php-developers',
-                'feeds' => [
-                    // [
-                    //     'label'         => '',
-                    //     'slug'          => '',
-                    //     'url'           => '',
-                    //     'description'   => '',
-                    //     'website'       => '',
-                    //     'facebook'      => '',
-                    //     'twitter'       => '',
-                    //     'linkedin'      => '',
-                    //     'youtube'       => '',
-                    //     'github'        => '',
-                    //     'keywords'      => '',
-                    //     'og_image'      => '',
-                    // ],
                     [
                         'label'         => 'Ash Allen',
                         'slug'          => 'ash-alllen-blog',
@@ -399,7 +394,6 @@ class SoftwareDevelopmentFeeds
                         'keywords'      => '',
                         'og_image'      => '',
                     ],
-                    self::$stackAbuse,
                 ],
             ],
             [
@@ -476,7 +470,8 @@ class SoftwareDevelopmentFeeds
                     //     'keywords'      => '',
                     //     'og_image'      => '',
                     // ],
-                    self::$stackAbuse,
+
+                    // TODO add stackAbuse,
                 ],
             ],
             [

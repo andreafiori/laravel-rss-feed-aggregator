@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Models;
-
-interface FeedsListInterface {
+interface FeedsListInterface
+{
     public function getFeeds();
 }
