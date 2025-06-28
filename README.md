@@ -10,14 +10,7 @@ Install Laravel and dependencies:
 
     composer install
 
-Frontend
-
-    npm install && npm run dev
-
-## Running
-
-    cd <your-project-directory>
-    npm run dev
+## Run the application
 
     cd <your-project-directory>
     php artisan serve
@@ -26,15 +19,8 @@ Frontend
 
 - [PHP](https://www,php.net) - hypertext processor.
 - [Laravel](https://www,laravel.com) - the web framework for artisans.
-- [Vite](https://vite.dev/) frontend tool.
+<!-- - [Vite](https://vite.dev/) frontend tool. -->
 - [SimplePie])(https://simplepie.org) PHP RSS reader and XML parser.
-
-### Topics
-
-- News
-- Software development
-- Cybersecurity
-- Gaming
 
 ### Laravel cleaning commands
 
@@ -45,17 +31,14 @@ Frontend
 
 ### TODO
 
+- Searh feed or newsgroup with autocomplete
+- Feed tags?
+- Dark mode toggle check
 - Spinner\Loader waiting until RSS xml is parsed
-- Show social icons for newsgroup details
 - Feeds URLs checker
 - Favicon
 - Breadcrumb
-- Meta tags
 - 404 page
-- List by macro category
-- Listing feeds
-- Feed view external website in an iframe checking URL
-- Testing
 - Migration from array to database with models and seeds
 - Admin area
 - Minify HTML,CSS,JS

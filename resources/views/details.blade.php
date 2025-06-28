@@ -48,13 +48,6 @@
                     </div>
 
                     <div class="mt-2"><small>Posted on <?= $item->get_date('j F Y | g:i a'); ?></small></div>
-
-                    <!-- <div class="text-center mt-2">
-                        <a href="#" class="icon-link gap-1 icon-link-hover">
-                            Continue reading
-                        </a>
-                    </div> -->
-
                 </div>
             </div>
         @endforeach

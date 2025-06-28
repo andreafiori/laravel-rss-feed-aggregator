@@ -4,8 +4,8 @@
             <div class="col-4 pt-1">
                 <!-- <a class="link-secondary" href="#">Subscribe</a> -->
             </div>
-            <div class="col-4 text-center"> <a class="blog-header-logo text-body-emphasis text-decoration-none"
-                    href="#">RSS feed aggregator</a> </div>
+            <div class="col-4 text-center">
+                <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">RSS feed aggregator</a></div>
             <div class="col-4 d-flex justify-content-end align-items-center">
 
                 <!-- <a class="link-secondary" href="#"
@@ -23,14 +23,14 @@
         </div>
     </header>
 
-    <div class="nav-scroller py-1 mb-3 border-bottom">
+    <!-- Feed categories list -->
+    <!-- <div class="nav-scroller py-1 mb-3 border-bottom">
         <nav class="nav nav-underline justify-content-between">
             <a class="nav-item nav-link link-body-emphasis active" href="/" title="Back to the home page">Home</a>
-            <!-- Feed categories list -->
             @foreach ($feedsCategories as $category)
                 <a class="nav-item nav-link link-body-emphasis" href="#">{{ $category['label'] }}</a>
             @endforeach
         </nav>
-    </div>
+    </div> -->
 
 </div>
