@@ -37,13 +37,13 @@
         @foreach($data->get_items(0, 50) as $item)
             <div class="col-4">
                 <div class="border me-2 mb-2 p-2">
-                    <h4>
+                    <h4 class="word-break">
                         <a href="{{ $item->get_permalink() }}" class="icon-link icon-link-hover" target="_blank" title="">
                             {{ strip_tags( $item->get_title() ) }}
                         </a>
                     </h4>
 
-                    <div style="word-wrap: break-word;">
+                    <div class="word-break">
                         <?= mb_strimwidth(strip_tags($item->get_description()), 0, 150, '...'); ?>
                     </div>
 

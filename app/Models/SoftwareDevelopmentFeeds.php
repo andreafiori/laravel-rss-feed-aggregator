@@ -10,6 +10,7 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
             [
                 'label' => 'PHP software development',
                 'slug'  => 'php-software-development',
+                'nosorting' => true,
                 'feeds' => [
                     // [
                     //     'label'         => '',

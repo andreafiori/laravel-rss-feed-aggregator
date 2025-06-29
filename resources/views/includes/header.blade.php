@@ -5,7 +5,7 @@
                 <!-- <a class="link-secondary" href="#">Subscribe</a> -->
             </div>
             <div class="col-4 text-center">
-                <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">RSS feed aggregator</a></div>
+                <a class="blog-header-logo text-body-emphasis text-decoration-none" href="/" title="Back to the home page">RSS feed aggregator</a></div>
             <div class="col-4 d-flex justify-content-end align-items-center">
 
                 <!-- <a class="link-secondary" href="#"

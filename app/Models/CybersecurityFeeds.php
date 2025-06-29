@@ -605,6 +605,20 @@ class CybersecurityFeeds implements FeedsListInterface
                     //     'keywords'      => '',
                     //     'og_image'      => '',
                     // ],
+                    [
+                        'label'         => 'IT Governance Blog',
+                        'slug'          => 'it-governance-blog',
+                        'url'           => 'https://www.itgovernance.co.uk/blog/feed/',
+                        'description'   => 'IT Governance Blog | Cyber Security RSS Feed',
+                        'website'       => 'https://www.itgovernance.co.uk/blog/category/cyber-security/',
+                        'facebook'      => 'https://www.facebook.com/ITGovernanceLtd',
+                        'twitter'       => 'https://twitter.com/ITGovernance',
+                        'youtube'       => 'http://www.youtube.com/itgovernanceltd',
+                        'linkedin'      => 'https://www.linkedin.com/company/it-governance',
+                        'github'        => '',
+                        'keywords'      => '',
+                        'og_image'      => '',
+                    ],
                 ]
             ],
             [
