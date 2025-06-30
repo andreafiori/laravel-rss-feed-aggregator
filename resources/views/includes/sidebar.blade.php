@@ -55,7 +55,7 @@
                                             <li class="menu-item">
                                                 <i class="fa fa-rss"></i>
                                                 <a
-                                                    href="/feed/{{ $feedGroup['slug'] }}/{{ $feed['slug'] }}/{{ $fd['slug'] }}"
+                                                    href="{{ url('feed', [ 'category' => $feedGroup['slug'], 'group' => $feed['slug'], 'feedSlug' => $fd['slug'] ]) }}"
                                                     class="{{ $isActive ? 'active text-primary fw-bold' : '' }}"
                                                 >
                                                     {{ $fd['label'] }}
