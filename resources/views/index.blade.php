@@ -27,7 +27,7 @@
                             <ul class="list-unstyled">
                                 @foreach ($feed['feeds'] as $fd)
                                     <li>
-                                        &raquo; <a href="/feed/{{ $feedGroup['slug'] }}/{{ $feed['slug'] }}/{{ $fd['slug'] }}">{{ $fd['label'] }}</a>
+                                        &raquo; <a href="{{ url('feed', [ 'category' => $feedGroup['slug'], 'group' => $feed['slug'], 'feedSlug' => $fd['slug'] ]) }}">{{ $fd['label'] }}</a>
                                     </li>
                                 @endforeach
                             </ul>

@@ -1,7 +1,6 @@
 ## RSS feed aggregator
 
 An RSS feed reader developed with Laravel.
-News are multi-language.
 RSS are stored in PHP array because they were migrated from my original andreafiori.net. I started with some newsgroups but now I have so many.
 
 ## Installation
@@ -19,27 +18,30 @@ Install Laravel and dependencies:
 
 - [PHP](https://www,php.net) - hypertext processor.
 - [Laravel](https://www,laravel.com) - the web framework for artisans.
-<!-- - [Vite](https://vite.dev/) frontend tool. -->
 - [SimplePie])(https://simplepie.org) PHP RSS reader and XML parser.
 
 ### Laravel cleaning commands
 
     php artisan route:cache
+    php artisan route:clear
     php artisan view:clear
 
     php artisan config:clear
     php artisan cache:clear
     php artisan config:cache
+    
+    php artisan optimize
+    php artisan optimize:clear
+    php artisan config:cache
 
 ### TODO
 
+- Spinner Loader waiting until RSS xml is parsed
+- Dark mode
 - Searh feed or newsgroup with autocomplete
-- Feed tags?
-- Dark mode toggle check
-- Spinner\Loader waiting until RSS xml is parsed
 - Feeds URLs checker
-- Favicon
 - Breadcrumb
+- Favicon
 - 404 page
 - Migration from array to database with models and seeds
 - Admin area
