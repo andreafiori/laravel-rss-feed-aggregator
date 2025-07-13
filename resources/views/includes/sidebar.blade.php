@@ -14,6 +14,10 @@
 
     <div class="sidebar-menu">
         <ul class="list-unstyled">
+            <li class="menu-item">
+                <h5 class="fw-bold fst-italic"><a href="{{ route('home') }}" title="Back to the home page">Home</a></h5>
+            </li>
+
             @foreach ($feeds as $groupIndex => $feedGroup)
                 <li class="menu-group">
                     <h5 class="fw-bold fst-italic">{{ $feedGroup['label'] }}</h5>
@@ -24,12 +28,12 @@
 
                                 // Check if any of the child feeds are active
                                 $isActiveGroup = false;
-                                foreach ($feed['feeds'] as $fd) {
-                                    if (Request::is("feed/{$feedGroup['slug']}/{$feed['slug']}/{$fd['slug']}")) {
+                                foreach ($feed['feeds'] as $fd):
+                                    if (Request::is("feed/{$feedGroup['slug']}/{$feed['slug']}/{$fd['slug']}")):
                                         $isActiveGroup = true;
                                         break;
-                                    }
-                                }
+                                    endif;
+                                endforeach
                             @endphp
 
                             <li class="menu-subgroup">

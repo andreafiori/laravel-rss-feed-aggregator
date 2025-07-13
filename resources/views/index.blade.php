@@ -1,41 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'Page Title')
+@section('title', 'RSS feed aggretator home page')
 
-@section('fullwidth')
-
-    <!-- Hero section home page -->
-    <!-- <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-      <div class="col-lg-12 px-0">
-        <h1 class="display-12 fst-italic">The RSS feed aggregator you need</h1>
-        <p class="lead my-3">Multiple feeds, categories and sub-categories.</p>
-        <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
-      </div>
-    </div> -->
-
-    <div class="row">
-        @foreach ($feeds as $feedGroup)
-            <div class="col-12 text-center">
-                <h4 class="fst-italic">{{ $feedGroup['label'] }}</h4>
-            </div>
-
-            @foreach($feedGroup['newsgroup'] as $feed)
-                <div class="col-4">
-                    <div class="border p-3 mb-3">
-                        <h5>{{ $feed['label']  }}</h5>
-                        <div class="ps-2">
-                            <ul class="list-unstyled">
-                                @foreach ($feed['feeds'] as $fd)
-                                    <li>
-                                        &raquo; <a href="{{ url('feed', [ 'category' => $feedGroup['slug'], 'group' => $feed['slug'], 'feedSlug' => $fd['slug'] ]) }}">{{ $fd['label'] }}</a>
-                                    </li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-        @endforeach
-
+@section('sidebar_content')
+  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="col-lg-12 px-0">
+    <h1 class="display-12 fst-italic">The news aggregator for nerds</h1>
+    <p class="lead my-3">Select a feed from the sidebar and start reading news from your favorite website.</p>
+    <!-- <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p> -->
+    </div>
+  </div>
 @endsection
-</div>

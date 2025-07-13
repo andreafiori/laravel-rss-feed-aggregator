@@ -4,7 +4,7 @@ namespace App\Models;
 
 class SoftwareDevelopmentFeeds implements FeedsListInterface
 {
-    public function getFeeds()
+    public function getFeeds(): array
     {
         return [
             [
@@ -24,7 +24,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                     //     'youtube'       => '',
                     //     'github'        => '',
                     //     'keywords'      => '',
-                    //     'og_image'      => '',
                     // ],
                     [
                         'label'         => 'PHP.net official website',
@@ -38,7 +37,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'PHP.net releases',
@@ -52,7 +50,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Laravel blog',
@@ -66,7 +63,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => 'https://www.youtube.com/@LaravelPHP',
                         'github'        => 'https://github.com/laravel/laravel',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Laracasts',
@@ -80,7 +76,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => 'https://www.youtube.com/laracastsofficial',
                         'github'        => 'https://github.com/laracasts',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Symfony',
@@ -94,7 +89,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => 'https://www.youtube.com/user/SensioLabs',
                         'github'        => 'https://github.com/symfony/symfony',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Yii framework',
@@ -108,7 +102,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => 'https://github.com/yiisoft',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Laminas blog',
@@ -122,7 +115,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => 'https://github.com/laminas',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'PHP classes .org',
@@ -136,24 +128,21 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     // https://laraveldaily.com/ GOOD WEBSITE BUT NO FEEDS
-
-                    // [
-                    //     'label'         => 'PHP Round table',
-                    //     'slug'          => 'php-round-table',
-                    //     'url'           => 'https://feeds.simplecast.com/sREPxPje',
-                    //     'description'   => 'PHP Round table: news from the Test fest event',
-                    //     'website'       => 'https://www.phproundtable.com/',
-                    //     'facebook'      => '',
-                    //     'twitter'       => 'https://twitter.com/PHPRoundtable',
-                    //     'linkedin'      => '',
-                    //     'youtube'       => 'https://youtube.com/c/PHPRoundtable',
-                    //     'github'        => '',
-                    //     'keywords'      => '',
-                    //     'og_image'      => '',
-                    // ],
+                    [
+                        'label'         => 'PHP Round table',
+                        'slug'          => 'php-round-table',
+                        'url'           => 'https://feeds.simplecast.com/sREPxPje',
+                        'description'   => 'PHP Round table: news from the Test fest event',
+                        'website'       => 'https://www.phproundtable.com/',
+                        'facebook'      => '',
+                        'twitter'       => 'https://twitter.com/PHPRoundtable',
+                        'linkedin'      => '',
+                        'youtube'       => 'https://youtube.com/c/PHPRoundtable',
+                        'github'        => '',
+                        'keywords'      => '',
+                    ],
                     [
                         'label'         => 'Ash Allen',
                         'slug'          => 'ash-alllen-blog',
@@ -166,7 +155,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => 'https://github.com/ash-jc-allen',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'David Carr',
@@ -180,7 +168,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => 'https://www.youtube.com/c/dcblogdev',
                         'github'        => 'https://github.com/dcblogdev',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Rob Allen',
@@ -192,7 +179,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'twitter'       => '',
                         'linkedin'      => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Jordi Boggiano',
@@ -206,7 +192,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Dries Buytaert',
@@ -220,7 +205,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Angie Byron',
@@ -234,7 +218,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
 //                    Other PHP devs https://blog.newrelic.com/culture/php-developers-follow-online/
 //                    [
@@ -249,7 +232,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
 //                        'youtube'       => '',
 //                        'github'        => '',
 //                        'keywords'      => '',
-//                        'og_image'      => '',
 //                    ],
                 ],
             ],
@@ -269,7 +251,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Practical Business Python',
@@ -283,7 +264,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Stack Abuse',
@@ -297,7 +277,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Real Python',
@@ -311,7 +290,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Python Tips',
@@ -325,7 +303,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => 'https://github.com/yasoob/',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Pycoders',
@@ -339,7 +316,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Django Framework',
@@ -353,7 +329,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => 'https://github.com/django',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                 ],
             ],
@@ -373,7 +348,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                     //     'youtube'       => '',
                     //     'github'        => '',
                     //     'keywords'      => '',
-                    //     'og_image'      => '',
                     // ],
                     [
                         'label'         => 'Java Code Geeks',
@@ -387,7 +361,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Oracle Blogs',
@@ -401,7 +374,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Java Revisited',
@@ -415,7 +387,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Thoughts on Java',
@@ -429,7 +400,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Baeldung',
@@ -443,7 +413,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
 
                     // TODO add stackAbuse,
@@ -463,7 +432,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'twitter'       => 'https://www.twitter.com/martinfowler',
                         'linkedin'      => 'https://www.linkedin.com/in/martin-fowler-com/',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Robert "Uncle Bob" Martin',
@@ -477,7 +445,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Software Engineering Daily',
@@ -491,35 +458,19 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
-                    ],
-                    [
-                        'label'         => 'Dzone',
-                        'slug'          => 'dzone',
-                        'url'           => 'https://feeds.dzone.com/home',
-                        'description'   => '',
-                        'website'       => 'https://dzone.com/',
-                        'facebook'      => 'https://www.facebook.com/DZoneInc',
-                        'twitter'       => 'https://twitter.com/DZoneInc',
-                        'linkedin'      => 'https://www.linkedin.com/company/dzone/',
-                        'youtube'       => '',
-                        'github'        => '',
-                        'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Google developers experts',
                         'slug'          => 'google-developers-experts',
                         'url'           => 'https://medium.com/feed/google-developer-experts',
                         'description'   => 'https://medium.com/google-developer-experts',
-                        'website'       => 'https://dzone.com/',
+                        'website'       => '',
                         'facebook'      => '',
                         'twitter'       => '',
                         'linkedin'      => '',
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Stackoverflow',
@@ -533,7 +484,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                 ],
             ],
@@ -553,7 +503,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Sitepoint',
@@ -567,7 +516,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Codrops',
@@ -575,36 +523,20 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'url'           => 'http://tympanus.net/codrops/feed/',
                         'description'   => 'Codrops | Useful resources and inspiration for creative minds',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
-//                    [
-//                        'label'         => 'A list apart',
-//                        'slug'          => 'a-list-apart',
-//                        'url'           => 'https://alistapart.com/main/feed',
-//                        'description'   => 'A List Apart: For People Who Make Websites',
-//                        'website'       => '',
-//                        'facebook'      => '',
-//                        'twitter'       => '',
-//                        'linkedin'      => '',
-//                        'youtube'       => '',
-//                        'github'        => '',
-//                        'keywords'      => '',
-//                        'og_image'      => '',
-//                    ],
-//                    [
-//                        'label'         => 'Speckyboy',
-//                        'slug'          => 'speckyboy',
-//                        'url'           => 'https://speckyboy.com/feed',
-//                        'description'   => 'Speckyboy Design Magazine - Web Design News, Resources & Inspiration',
-//                        'website'       => '',
-//                        'facebook'      => '',
-//                        'twitter'       => '',
-//                        'linkedin'      => '',
-//                        'youtube'       => '',
-//                        'github'        => '',
-//                        'keywords'      => '',
-//                        'og_image'      => '',
-//                    ],
+                    [
+                       'label'         => 'A list apart',
+                       'slug'          => 'a-list-apart',
+                       'url'           => 'https://alistapart.com/main/feed',
+                       'description'   => 'A List Apart: For People Who Make Websites',
+                       'website'       => '',
+                       'facebook'      => '',
+                       'twitter'       => '',
+                       'linkedin'      => '',
+                       'youtube'       => '',
+                       'github'        => '',
+                       'keywords'      => '',
+                    ],
                     [
                         'label'         => 'Webdesigner Depot',
                         'slug'          => 'webdesigner-depot',
@@ -617,7 +549,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Toptal',
@@ -632,7 +563,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Flavio Copes',
@@ -646,7 +576,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Egghead.io',
@@ -660,7 +589,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'CSS Tricks',
@@ -674,7 +602,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => 'https://www.youtube.com/user/realcsstricks',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Angular (Official)',
@@ -688,7 +615,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Angular in Depth',
@@ -702,7 +628,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Angular University',
@@ -716,7 +641,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'ReactJS',
@@ -730,8 +654,133 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
+                ],
+            ],
+            [
+                'label' => 'Dzone',
+                'slug' => 'dzone',
+                'website'       => 'https://dzone.com/',
+                'facebook'      => 'https://www.facebook.com/DZoneInc',
+                'twitter'       => 'https://twitter.com/DZoneInc',
+                'linkedin'      => 'https://www.linkedin.com/company/dzone/',
+                'youtube'       => '',
+                'github'        => '',
+                'keywords'      => '',
+                'feeds' => [
+                    [
+                        'label'         => 'Dzone Home',
+                        'slug'          => 'home',
+                        'url'           => 'https://feeds.dzone.com/home',
+                        'description'   => '',
+                    ],
+
+
+//                     {
+// 				label: 'All contents',
+// 				title: 'All DZone content in one place',
+// 				path: '/software-development/dzone/dzone-rss-feed',
+// 				url: 'http://feeds.dzone.com/home'
+// 			},
+// 			{
+// 				label: 'Publications',
+// 				title: 'Latest DZone Research Guides and Refcardz',
+// 				path: '/software-development/dzone/publications',
+// 				url: 'http://feeds.dzone.com/publications'
+// 			},
+// {
+// 				label: 'AI Zone',
+// 				title: 'Latest articles from AI Zone',
+// 				path: '/software-development/dzone/ai',
+// 				url: 'http://feeds.dzone.com/ai'
+// 			},
+// 			{
+// 				label: 'Agile Zone',
+// 				title: 'Latest articles from Agile Zone',
+// 				path: '/software-development/dzone/agile',
+// 				url: 'http://feeds.dzone.com/agile'
+// 			},
+// 			{
+// 				label: 'Big Data Zone',
+// 				title: 'Latest articles from Big Data Zone',
+// 				path: '/software-development/dzone/big-data',
+// 				url: 'http://feeds.dzone.com/big-data'
+// 			},
+// 			{
+// 				label: 'Cloud Zone',
+// 				title: 'Latest articles from',
+// 				path: '/software-development/dzone/cloud',
+// 				url: 'http://feeds.dzone.com/cloud'
+// 			},
+// 			{
+// 				label: 'Database Zone',
+// 				title: 'Latest articles from ',
+// 				path: '/software-development/dzone/database',
+// 				url: 'http://feeds.dzone.com/database'
+// 			},
+// 			{
+// 				label: 'DevOps',
+// 				title: 'Latest articles from ',
+// 				path: '/software-development/dzone/devops',
+// 				url: 'http://feeds.dzone.com/devops'
+// 			},
+// 			{
+// 				label: 'Integration',
+// 				title: 'Latest articles from Integration Zone',
+// 				path: '/software-development/dzone/integration',
+// 				url: 'http://feeds.dzone.com/integration'
+// 			},
+// 			{
+// 				label: 'IoT',
+// 				title: 'Latest articles from IoT Zone',
+// 				path: '/software-development/dzone/iot',
+// 				url: 'http://feeds.dzone.com/iot'
+// 			},
+// 			{
+// 				label: 'Java',
+// 				title: 'Latest articles from Java Zone',
+// 				path: '/software-development/dzone/java',
+// 				url: 'http://feeds.dzone.com/java'
+// 			},
+// 			{
+// 				label: 'Microservices',
+// 				title: 'Latest articles from Microservices Zone',
+// 				path: '/software-development/dzone/microservices',
+// 				url: 'http://feeds.dzone.com/microservices'
+// 			},
+// 			{
+// 				label: 'Mobile',
+// 				title: 'Latest articles from Mobile Zone',
+// 				path: '/software-development/dzone/mobile',
+// 				url: 'http://feeds.dzone.com/mobile'
+// 			},
+// 			{
+// 				label: 'Performance',
+// 				title: 'Latest articles from Performance Zone',
+// 				path: '/software-development/dzone/performance',
+// 				url: 'http://feeds.dzone.com/performance'
+// 			},
+// 			{
+// 				label: 'Security',
+// 				title: 'Latest articles from Security Zone',
+// 				path: '/software-development/dzone/security',
+// 				url: 'http://feeds.dzone.com/security'
+// 			},
+// 			{
+// 				label: 'Web Dev',
+// 				title: 'Latest articles from Web Dev Zone',
+// 				path: '/software-development/dzone/web-dev',
+// 				url: 'http://feeds.dzone.com/webdev'
+// 			},
+// 			{
+// 				label: 'Developer Marketing',
+// 				title: 'Latest articles from our team for improving your developer marketing',
+// 				path: '/software-development/dzone/developer-marketing',
+// 				url: 'http://feeds.dzone.com/developer-marketing'
+// 			},
+
+
+
                 ],
             ],
         ];

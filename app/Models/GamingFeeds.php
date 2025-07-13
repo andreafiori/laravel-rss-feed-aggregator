@@ -25,7 +25,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gameinformer.com/news.xml',
                         'description' => 'Game Informer is your source for the latest in video game news, reviews, previews, podcasts, and features.',
                         'keywords' => 'gameinformer,news,feeds,games',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Game Informer Videos',
@@ -34,7 +33,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gameinformer.com/videos.xml',
                         'description' => 'Game Informer is your source for the latest in video game news, reviews, previews, podcasts, and features.',
                         'keywords' => 'gameinformer,news,feeds,games,videos',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Game Informer Podcasts',
@@ -43,7 +41,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gameinformer.com/gishow.xml',
                         'description' => 'Game Informer is your source for the latest in video game news, reviews, previews, podcasts, and features.',
                         'keywords' => 'gameinformer,news,feeds,games,videos',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Game Informer Features',
@@ -52,7 +49,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gameinformer.com/features.xml',
                         'description' => 'Game Informer is your source for the latest in video game news, reviews, previews, podcasts, and features.',
                         'keywords' => 'gameinformer,news,feeds,games,videos',
-                        'og_image' => '',
                     ],
                 ]
             ],
@@ -76,7 +72,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gamespot.com/feeds/mashup',
                         'description' => '',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'All News',
@@ -85,7 +80,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gamespot.com/feeds/news',
                         'description' => '',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Game News',
@@ -94,7 +88,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gamespot.com/feeds/game-news',
                         'description' => '',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'New Game Releases',
@@ -103,7 +96,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gamespot.com/feeds/new-games/',
                         'description' => 'Gamespot New Game Releases RSS',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Reviews',
@@ -112,7 +104,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gamespot.com/feeds/reviews',
                         'description' => 'Gamespot Reviews RSS',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Galleries',
@@ -121,7 +112,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gamespot.com/feeds/galleries',
                         'description' => 'Gamespot Galleries RSS',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Video',
@@ -130,7 +120,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'https://www.gamespot.com/feeds/video',
                         'description' => 'Gamespot Video RSS',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                 ]
             ],
@@ -154,7 +143,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'http://feeds.ign.com/ign/news',
                         'description' => 'The latest IGN news, previews and features about video games, movies, TV, tech and comics',
                         'keywords' => 'ign,news,feeds',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'IGN Articles',
@@ -163,7 +151,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'http://feeds.ign.com/ign/articles',
                         'description' => 'The latest IGN reviews, news, previews and features about video games, movies, TV, tech and comics',
                         'keywords' => 'ign,articles,feeds',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'IGN Videos',
@@ -172,7 +159,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'http://feeds.ign.com/ign/games-videos',
                         'description' => 'The latest IGN reviews, news, previews and features about video games, movies, TV, tech and comics',
                         'keywords' => 'ign,articles,feeds,videos',
-                        'og_image' => '',
                     ],
                     // IIGN E3 expo https://www.e3expo.com/
                     [
@@ -182,7 +168,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'http://feeds.ign.com/ign/e3-all',
                         'description' => 'The latest news, previews, features, press conferences and videos from E3, the largest show dedicated to video games',
                         'keywords' => 'ign,articles,news,e3',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'E3 Latest Articles from IGN',
@@ -191,7 +176,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'http://feeds.ign.com/ign/e3-articles',
                         'description' => 'The latest news, previews, features, press conferences and videos from E3, the largest show dedicated to video games',
                         'keywords' => 'ign,articles,news,e3',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'E3 Videos',
@@ -200,7 +184,6 @@ class GamingFeeds implements FeedsListInterface
                         'url' => 'http://feeds.ign.com/ign/e3-videos',
                         'description' => 'The latest news, previews, features, press conferences and videos from E3, the largest show dedicated to video games',
                         'keywords' => 'ign,articles,news,e3,videos',
-                        'og_image' => '',
                     ],
                 ]
             ],
@@ -227,7 +210,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => '',
                         'url' => 'http://news.xbox.com/feed',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Xbox Live\'s Major Nelson',
@@ -240,7 +222,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => '',
                         'url' => 'https://majornelson.com/feed',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'VG247',
@@ -253,7 +234,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => '',
                         'url' => '',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                 ]
             ],
@@ -280,7 +260,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => 'https://www.youtube.com/nintendolife',
                         'url' => 'http://www.nintendolife.com/feeds/latest',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'GoNintendo',
@@ -293,7 +272,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => 'https://www.youtube.com/channel/UCvQPbLRLHSUWy7km3iaN4ng',
                         'url' => 'http://feedpress.me/gonintendo',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'My Nintendo News',
@@ -306,7 +284,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => '',
                         'url' => 'https://mynintendonews.com/feed',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                 ]
             ],
@@ -333,7 +310,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => 'https://www.youtube.com/user/polygon',
                         'url' => 'http://www.polygon.com/rss/index.xml',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Eurogamer',
@@ -346,7 +322,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => '',
                         'url' => 'http://www.eurogamer.net/?format=rss',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Destructoid',
@@ -359,7 +334,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => 'https://youtube.com/dtoid',
                         'url' => 'https://feeds.feedburner.com/Destructoid-Rss',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Rock, Paper, Shotgun',
@@ -372,7 +346,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => '',
                         'url' => 'http://feeds.feedburner.com/RockPaperShotgun',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'PCGamesN',
@@ -385,7 +358,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => '',
                         'url' => 'https://www.pcgamesn.com/rss',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Kotaku',
@@ -398,7 +370,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => 'https://www.youtube.com/user/KotakuNYC',
                         'url' => 'https://kotaku.com/rss',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Fextralife',
@@ -411,7 +382,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => '',
                         'url' => 'http://fextralife.com/feed',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Gamasutra',
@@ -424,7 +394,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => '',
                         'url' => 'http://feeds.feedburner.com/GamasutraConsolePCNews?format=xml',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'PC Gamer',
@@ -437,7 +406,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => 'https://www.youtube.com/user/pcgamer',
                         'url' => 'https://www.pcgamer.com/rss/?feed=rss',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
                     [
                         'label' => 'Green Man',
@@ -450,7 +418,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube' => 'https://www.youtube.com/channel/UCbONsRevt2_YIN6sLigGIzQ',
                         'url' => 'https://www.greenmangaming.com/posts/feed',
                         'keywords' => '',
-                        'og_image' => '',
                     ],
 
                     /*
@@ -465,7 +432,6 @@ class GamingFeeds implements FeedsListInterface
                         'youtube'       => '',
                         'url'           => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     */
 
@@ -758,7 +724,6 @@ class GamingFeeds implements FeedsListInterface
 //                        'url'           => 'https://www.thegamesmachine.it/rss',
 //                        'description'   => 'The latest news, previews, features, press conferences and videos from E3, the largest show dedicated to video games',
 //                        'keywords'      => 'ign,articles,news,e3',
-//                        'og_image'      => '',
 //                    ],
 //                ]
 //            ],

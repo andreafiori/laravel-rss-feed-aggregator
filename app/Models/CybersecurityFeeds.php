@@ -25,7 +25,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/cloud-security/feed',
                         'description'   => 'Cloud Security news on threat post',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Critical Infrastructure',
@@ -33,7 +32,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/critical-infrastructure/feed',
                         'description'   => 'Critical Infrastructure news on threat post',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Cryptography',
@@ -41,7 +39,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/critical-infrastructure/feed',
                         'description'   => 'Cryptography news on threat post',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Government',
@@ -49,7 +46,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/government/feed',
                         'description'   => 'Government news on Threat Post',
                         'keywords'      => 'internet of thigs,threat post,'.'',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Hacks',
@@ -57,7 +53,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/hacks/feed',
                         'description'   => 'Threat post Hackings news',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'IoT',
@@ -65,7 +60,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/iot/feed',
                         'description'   => 'Threat post Internet of Things news',
                         'keywords'      => 'internet of thigs,feed,threat post,hacking,security',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Mobile Security',
@@ -73,7 +67,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/mobile-security/feed',
                         'description'   => 'Threat post Mobile Security news',
                         'keywords'      => 'mobile,security,feed,threat post,hacking,cyber,security',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Privacy',
@@ -81,7 +74,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/privacy/feed',
                         'description'   => 'Threat post Privacy news',
                         'keywords'      => 'privacy,feed,threat post,hacking,cyber,security',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Vulnerabilities',
@@ -89,7 +81,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/vulnerabilities/feed',
                         'description'   => 'Threat post Vulnerabilities news',
                         'keywords'      => 'vulnerabilities,feed,threat post,hacking,cyber,security',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Web Security',
@@ -97,7 +88,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/web-security/feed',
                         'description'   => 'Threat post Vulnerabilities news',
                         'keywords'      => 'web security,feed,threat post,hacking,cyber,security',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Videos',
@@ -105,7 +95,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'https://threatpost.com/category/videos/feed',
                         'description'   => 'Threat post Videos',
                         'keywords'      => 'feed,threat post,hacking,cyber,security',
-                        'og_image'      => '',
                     ],
                 ]
             ],
@@ -143,7 +132,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => 'https://www.linkedin.com/company/dark-reading/',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'The Hacker News',
@@ -156,7 +144,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'youtube'       => 'https://www.youtube.com/user/hackernewsvideos?sub_confirmation=1',
                         'linkedin'      => 'https://www.linkedin.com/company/the-hacker-news/',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'EC Council',
@@ -325,7 +312,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => 'http://www.linkedin.com/company/cisco',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     // TechRepublic https://www.techrepublic.com/topic/security/ | http://www.techrepublic.com/rssfeeds/topic/security/?feedType=rssfeeds
                     [
@@ -340,7 +326,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => 'https://www.linkedin.com/company/zdnet-com',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'TRUSTe Blog',
@@ -354,7 +339,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => 'https://www.linkedin.com/company/21121',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Threat Insight Blog',
@@ -368,7 +352,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => 'https://www.linkedin.com/company/proofpoint',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Seqrite Blog',
@@ -382,7 +365,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => 'https://www.linkedin.com/company/seqrite',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     // [
                     //     'label'         => 'Data Sunrise',
@@ -396,7 +378,6 @@ class CybersecurityFeeds implements FeedsListInterface
                     //     'linkedin'      => 'https://www.linkedin.com/company/datasunrise-inc',
                     //     'github'        => '',
                     //     'keywords'      => '',
-                    //     'og_image'      => '',
                     // ],
                     [
                         'label'         => 'IT Security Central',
@@ -410,7 +391,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => 'https://www.linkedin.com/company/5090184',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Hacker Combat',
@@ -424,7 +404,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => 'https://www.linkedin.com/company/13592570',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     // Security weekly http://securityweekly.com/podcast/psw.xml | http://securityweekly.com/podcast/psw.xml
                     // [
@@ -439,7 +418,6 @@ class CybersecurityFeeds implements FeedsListInterface
                     //     'linkedin'      => '',
                     //     'github'        => '',
                     //     'keywords'      => '',
-                    //     'og_image'      => '',
                     // ],
                     [
                         'label'         => 'Cybersecurity 360',
@@ -453,7 +431,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Securelist.com',
@@ -467,7 +444,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Darknet.org',
@@ -481,7 +457,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => 'https://www.linkedin.com/company/25076296/',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'Trend Micro',
@@ -495,7 +470,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => '',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                     [
                         'label'         => 'IT Governance Blog',
@@ -509,7 +483,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'linkedin'      => 'https://www.linkedin.com/company/it-governance',
                         'github'        => '',
                         'keywords'      => '',
-                        'og_image'      => '',
                     ],
                 ]
             ],
@@ -525,7 +498,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'https://fortiguard.com/rss/ir.xml',
                         'description'       => 'PSIRT Advisories',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
                         'seo_keywords'      => ''
@@ -536,10 +508,9 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'http://fortiguard.com/rss/appcontrol.xml',
                         'description'       => 'Application Control Service Updates',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
-                        'seo_keywords'      => ''
+                        'seo_keywords'      => '',
                     ],
                     [
                         'label'             => 'Antispam Checksum Updates',
@@ -547,10 +518,9 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'http://fortiguard.com/rss/aschecksum.xml',
                         'description'       => 'Application Control Service Updates',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
-                        'seo_keywords'      => ''
+                        'seo_keywords'      => '',
                     ],
                     [
                         'label'             => 'Antispam URI Updates',
@@ -558,7 +528,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'http://fortiguard.com/rss/asuri.xml',
                         'description'       => 'Antispam URI Updates',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
                         'seo_keywords'      => ''
@@ -569,7 +538,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'http://fortiguard.com/rss/asip.xml',
                         'description'       => 'Antispam URI Updates',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
                         'seo_keywords'      => ''
@@ -580,7 +548,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'http://fortiguard.com/rss/ipsdatabase.xml',
                         'description'       => 'Intrusion Prevention Service Updates',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
                         'seo_keywords'      => ''
@@ -591,7 +558,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'http://fortiguard.com/rss/webfiltering.xml',
                         'description'       => 'Web Filtering Service Updates',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
                         'seo_keywords'      => ''
@@ -602,7 +568,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'http://fortiguard.com/rss/webfiltering.xml',
                         'description'       => 'Web Filtering Service Updates',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
                         'seo_keywords'      => ''
@@ -613,7 +578,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'http://fortiguard.com/rss/websecurity.xml',
                         'description'       => 'Web Security Service Updates',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
                         'seo_keywords'      => ''
@@ -624,7 +588,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'http://fortiguard.com/rss/mobile.xml',
                         'description'       => 'Web Security Service Updates',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
                         'seo_keywords'      => ''
@@ -635,7 +598,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'               => 'http://fortiguard.com/rss/epvuln.xml',
                         'description'       => 'Web Security Service Updates',
                         'keywords'          => '',
-                        'og_image'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',
                         'seo_keywords'      => ''

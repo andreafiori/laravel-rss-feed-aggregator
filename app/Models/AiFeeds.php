@@ -23,7 +23,6 @@ class AiFeeds implements FeedsListInterface
                     //     'youtube'     => '',
                     //     'github'      => '',
                     //     'keywords'    => '',
-                    //     'og_image'    => '',
                     // ],
                      [
                         'label'       => 'Machine learning mastery',
@@ -37,7 +36,6 @@ class AiFeeds implements FeedsListInterface
                         'youtube'     => '',
                         'github'      => '',
                         'keywords'    => '',
-                        'og_image'    => '',
                     ],
                     [
                         'label'       => 'Open AI',
@@ -51,7 +49,6 @@ class AiFeeds implements FeedsListInterface
                         'youtube'     => 'https://www.youtube.com/OpenAI',
                         'github'      => 'https://github.com/openai',
                         'keywords'    => '',
-                        'og_image'    => '',
                     ],
                     [
                         'label'       => 'MarkTechPost',
@@ -65,7 +62,6 @@ class AiFeeds implements FeedsListInterface
                         'youtube'     => '',
                         'github'      => '',
                         'keywords'    => '',
-                        'og_image'    => '',
                     ],
                     [
                         'label'       => 'Google Deepmind',
@@ -79,7 +75,6 @@ class AiFeeds implements FeedsListInterface
                         'youtube'     => '',
                         'github'      => '',
                         'keywords'    => '',
-                        'og_image'    => '',
                     ],
                     [
                         'label'       => 'Google research',
@@ -93,7 +88,6 @@ class AiFeeds implements FeedsListInterface
                         'youtube'     => 'https://www.youtube.com/c/GoogleResearch',
                         'github'      => 'https://github.com/google-research',
                         'keywords'    => '',
-                        'og_image'    => '',
                     ],
                     // https://www.unite.ai/feed/ feeds disabled :(
                     [
@@ -108,7 +102,6 @@ class AiFeeds implements FeedsListInterface
                         'youtube'     => '',
                         'github'      => '',
                         'keywords'    => '',
-                        'og_image'    => '',
                     ],
                     [
                         'label'       => 'Ai2people',
@@ -122,7 +115,6 @@ class AiFeeds implements FeedsListInterface
                         'youtube'     => '',
                         'github'      => '',
                         'keywords'    => '',
-                        'og_image'    => '',
                     ],
                     [
                         'label'       => 'TechSpective',
@@ -136,7 +128,6 @@ class AiFeeds implements FeedsListInterface
                         'youtube'     => '',
                         'github'      => '',
                         'keywords'    => '',
-                        'og_image'    => '',
                     ],
                     [
                         'label'       => 'Qudata',
@@ -150,21 +141,21 @@ class AiFeeds implements FeedsListInterface
                         'youtube'     => 'https://www.youtube.com/c/Qudata',
                         'github'      => 'https://github.com/qudataai',
                         'keywords'    => '',
-                        'og_image'    => '',
                     ],
                     [
                         'label'       => 'MetaDevo AI Blog',
-                        'slug'        => 'MetaDevo',
+                        'slug'        => 'metadevo',
                         'url'         => 'https://qudata.com/en/news/rss.xml',
                         'description' => '',
-                        'website'     => '',
+                        'website'     => 'https://qudata.com',
                         'facebook'    => '',
                         'twitter'     => '',
-                        'linkedin'    => '',
-                        'youtube'     => '',
-                        'github'      => '',
+                        'linkedin'    => 'https://www.linkedin.com/company/qudata-ai/',
+                        'youtube'     => 'https://www.youtube.com/c/Qudata',
+                        'github'      => 'https://github.com/qudataai',
+                        'whatsapp'    => 'https://wa.me/380674420588',
+                        'telegram'    => 'https://t.me/QuBotQuData',
                         'keywords'    => '',
-                        'og_image'    => '',
                     ],
                 ]
             ]

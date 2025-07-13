@@ -33,9 +33,9 @@
         <?php endif; ?>
     </div>
 
-    <div class="row">
+    <div class="row feeds-list-container">
         @foreach($data->get_items(0, 50) as $item)
-            <div class="col-4">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="border me-2 mb-2 p-2">
                     <h4 class="word-break">
                         <a href="{{ $item->get_permalink() }}" class="icon-link icon-link-hover" target="_blank" title="">

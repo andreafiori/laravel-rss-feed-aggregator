@@ -1,11 +1,5 @@
 /* @import 'tailwindcss'; */
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
-/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
-
 .word-break {
     word-break: break-all
 }
@@ -149,4 +143,13 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-menu .menu-subgroup > span {
     font-size: 0.95rem;
     color: #6c757d;
+}
+
+.container-large {
+    min-width: 90%;
+}
+
+.feeds-list-container {
+    max-height: 75vh;
+    overflow-y: auto;
 }
