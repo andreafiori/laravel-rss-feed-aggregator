@@ -94,15 +94,15 @@ class CybersecurityFeeds implements FeedsListInterface
                         'slug'          => 'threat-post-videos',
                         'url'           => 'https://threatpost.com/category/videos/feed',
                         'description'   => 'Threat post Videos',
-                        'keywords'      => 'feed,threat post,hacking,cyber,security',
+                        'keywords'      => '',
                     ],
                 ]
             ],
             [
                 'picture'               => 'cyber-security-websites.gif',
-                'label'                 => 'Websites and Blogs',
-                'description'           => 'The best information security news from the best websites and blogs',
-                'slug'                  => 'websites',
+                'label'                 => 'various',
+                'description'           => 'Information security news from the best websites and blogs',
+                'slug'                  => 'various',
                 'feeds' => [
                     // Empty template
                     /*
@@ -306,9 +306,9 @@ class CybersecurityFeeds implements FeedsListInterface
                         'url'           => 'http://blogs.cisco.com/category/security/feed/',
                         'description'   => 'Cisco Blog - Security RSS Feed',
                         'website'       => 'https://blogs.cisco.com/security',
-                        'facebook'      => 'https://www.facebook.com/ciscosecurity?ref=nf',
+                        'facebook'      => 'https://www.facebook.com/ciscosecurity',
                         'twitter'       => 'https://twitter.com/ciscosecurity',
-                        'youtube'       => 'https://www.youtube.com/user/Cisco/playlists?shelf_id=5&sort=dd&view=50',
+                        'youtube'       => 'https://www.youtube.com/user/Cisco/',
                         'linkedin'      => 'http://www.linkedin.com/company/cisco',
                         'github'        => '',
                         'keywords'      => '',

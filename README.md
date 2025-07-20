@@ -25,7 +25,11 @@ Install Laravel and dependencies:
 ## Running the Application
 
     cd <your-project-directory>
-    php artisan serve
+    php artisan 
+
+## Run unit tests
+
+     php artisan test
 
 The application will be available at [http://localhost:8000](http://localhost:8000)
 

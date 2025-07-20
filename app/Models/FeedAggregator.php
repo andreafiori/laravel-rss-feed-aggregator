@@ -58,9 +58,12 @@ class FeedAggregator
 
         // Sort all feeds alphabetically
         foreach($categories as &$category) {
+            // Sort newsgroups
+            usort($category['newsgroup'], function ($a, $b) { return $a['label'] > $b['label']; });
             foreach($category['newsgroup'] as &$newsgroup) {
                 if ( !isset($newsgroup['nosorting']) ) {
-                    usort($newsgroup['feeds'], function ($a, $b) {return $a['label'] > $b['label'];});
+                    // Sort feeds
+                    usort($newsgroup['feeds'], function ($a, $b) { return $a['label'] > $b['label']; });
                 }
             }
         }

@@ -393,8 +393,8 @@ class NewsFeeds implements FeedsListInterface
                 ]
             ],
             [
-                'label' => 'Websites',
-                'slug' => 'websites',
+                'label' => 'Various',
+                'slug' => 'various',
                 // 'nosorting' => true,
                 'feeds' => [
                     //  [

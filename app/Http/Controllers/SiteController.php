@@ -32,6 +32,7 @@ class SiteController extends Controller
 
     return view('details', [
         'data' => $data,
+        'feed' => $feed,
         'category' => $category,
         'group' => $group,
         'slug' => $feedSlug,
