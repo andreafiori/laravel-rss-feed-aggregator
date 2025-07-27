@@ -35,7 +35,7 @@ class CybersecurityFeeds implements FeedsListInterface
                     ],
                     [
                         'label'         => 'Cryptography',
-                        'slug'          => 'threat-post-cryptographye',
+                        'slug'          => 'threat-post-cryptography',
                         'url'           => 'https://threatpost.com/category/critical-infrastructure/feed',
                         'description'   => 'Cryptography news on threat post',
                         'keywords'      => '',
@@ -100,9 +100,9 @@ class CybersecurityFeeds implements FeedsListInterface
             ],
             [
                 'picture'               => 'cyber-security-websites.gif',
-                'label'                 => 'various',
+                'label'                 => 'Websites',
                 'description'           => 'Information security news from the best websites and blogs',
-                'slug'                  => 'various',
+                'slug'                  => 'websites',
                 'feeds' => [
                     // Empty template
                     /*
@@ -533,30 +533,10 @@ class CybersecurityFeeds implements FeedsListInterface
                         'seo_keywords'      => ''
                     ],
                     [
-                        'label'             => 'Antispam IP Updates',
-                        'slug'              => 'antispam-ip-updates',
-                        'url'               => 'http://fortiguard.com/rss/asip.xml',
-                        'description'       => 'Antispam URI Updates',
-                        'keywords'          => '',
-                        'seo_title'         => '',
-                        'seo_description'   => '',
-                        'seo_keywords'      => ''
-                    ],
-                    [
                         'label'             => 'Intrusion Prevention Service Updates',
                         'slug'              => 'intrusion-prevention-service-updates',
                         'url'               => 'http://fortiguard.com/rss/ipsdatabase.xml',
                         'description'       => 'Intrusion Prevention Service Updates',
-                        'keywords'          => '',
-                        'seo_title'         => '',
-                        'seo_description'   => '',
-                        'seo_keywords'      => ''
-                    ],
-                    [
-                        'label'             => 'Web Filtering Service Updates',
-                        'slug'              => 'web-filtering-service-updates',
-                        'url'               => 'http://fortiguard.com/rss/webfiltering.xml',
-                        'description'       => 'Web Filtering Service Updates',
                         'keywords'          => '',
                         'seo_title'         => '',
                         'seo_description'   => '',

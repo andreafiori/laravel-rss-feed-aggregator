@@ -297,7 +297,6 @@ class GamingFeeds implements FeedsListInterface
                 'feeds' => [
                     [
                         'label' => 'Playstation blog',
-                        'label_menu' => '',
                         'description' => '',
                         'slug' => 'playstation-blog',
                         'website' => '',
@@ -309,7 +308,6 @@ class GamingFeeds implements FeedsListInterface
                     ],
                     [
                         'label' => 'Playstation blog',
-                        'label_menu' => '',
                         'description' => '',
                         'slug' => 'playstation-blog',
                         'website' => '',
@@ -317,6 +315,28 @@ class GamingFeeds implements FeedsListInterface
                         'twitter' => '',
                         'youtube' => '',
                         'url' => 'http://feeds.feedburner.com/psblog',
+                        'keywords' => '',
+                    ],
+                    [
+                        'label' => 'Ps4blog',
+                        'description' => '',
+                        'slug' => 'playstation-blog',
+                        'website' => 'https://www.ps4blog.net/',
+                        'facebook' => '',
+                        'twitter' => '',
+                        'youtube' => '',
+                        'url' => 'https://feeds.feedburner.com/PS4Blognet',
+                        'keywords' => '',
+                    ],
+                    [
+                        'label' => 'Psx extreme',
+                        'description' => '',
+                        'slug' => 'psx-extreme',
+                        'website' => 'https://psxextreme.com/',
+                        'facebook' => '',
+                        'twitter' => '',
+                        'youtube' => '',
+                        'url' => 'https://psxextreme.com/feed/',
                         'keywords' => '',
                     ],
                 ]

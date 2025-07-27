@@ -459,6 +459,7 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'github' => '',
                         'keywords' => '',
                     ],
+                    // https://scottberkun.com/feed/
                     [
                         'label' => 'Software Engineering Daily',
                         'slug' => 'software-engineering-daily',
@@ -467,6 +468,32 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'website' => 'https://softwareengineeringdaily.com/',
                         'facebook' => 'https://www.facebook.com/sedaily',
                         'twitter' => 'https://twitter.com/software_daily',
+                        'linkedin' => '',
+                        'youtube' => '',
+                        'github' => '',
+                        'keywords' => '',
+                    ],
+                    [
+                        'label' => 'AirBnb on Medium',
+                        'slug' => 'airbnb-on-medium',
+                        'url' => 'https://medium.com/feed/airbnb-engineering',
+                        'description' => '',
+                        'website' => 'https://medium.com/airbnb-engineering',
+                        'facebook' => '',
+                        'twitter' => '',
+                        'linkedin' => '',
+                        'youtube' => '',
+                        'github' => '',
+                        'keywords' => '',
+                    ],
+                    [
+                        'label' => 'Meta Engineering',
+                        'slug' => 'meta-engineering',
+                        'url' => 'https://engineering.fb.com/feed/',
+                        'description' => '',
+                        'website' => 'https://medium.com/airbnb-engineering',
+                        'facebook' => '',
+                        'twitter' => '',
                         'linkedin' => '',
                         'youtube' => '',
                         'github' => '',
@@ -591,16 +618,17 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'keywords' => '',
                     ],
                     [
-                        'label' => 'Egghead.io',
-                        'slug' => 'egghead',
-                        'url' => 'https://egghead.io/feed',
-                        'description' => 'Awesome lessons on modern web tools that you use to get work done.',
-                        'website' => 'https://egghead.io/',
-                        'facebook' => '',
-                        'twitter' => '',
+                        'label' => 'Dev.to',
+                        'slug' => 'devto',
+                        'url' => 'https://dev.to/feed',
+                        'description' => '',
+                        'website' => 'https://dev.to/',
+                        'facebook' => 'https://facebook.com/thepracticaldev',
+                        'twitter' => 'https://x.com/thepracticaldev',
                         'linkedin' => '',
                         'youtube' => '',
-                        'github' => '',
+                        'github' => 'https://github.com/forem',
+                        'instagram' => 'https://instagram.com/thepracticaldev',
                         'keywords' => '',
                     ],
                     [
@@ -678,25 +706,19 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'label' => 'All contents',
                         'description' => 'All DZone content in one place',
                         'slug' => 'all-contents',
-                        'url' => 'http://feeds.dzone.com/home'
+                        'url' => 'https://feeds.dzone.com/home'
                     ],
                     [
-                        'label' => 'Publications',
-                        'description' => 'Latest DZone Research Guides and Refcardz',
-                        'slug' => 'publications',
-                        'url' => 'http://feeds.dzone.com/publications'
-                    ],
-                    [
-                        'label' => 'AI Zone',
+                        'label' => 'AI\ML Zone',
                         'description' => 'Latest articles from AI Zone',
                         'slug' => '/software-development/dzone/ai',
-                        'url' => 'http://feeds.dzone.com/ai'
+                        'url' => 'https://feeds.dzone.com/ai'
                     ],
                     [
                         'label' => 'Agile Zone',
                         'description' => 'Latest articles from Agile Zone',
                         'slug' => 'agile-zone',
-                        'url' => 'http://feeds.dzone.com/agile'
+                        'url' => 'https://feeds.dzone.com/agile'
                     ],
                     [
                         'label' => 'Big Data Zone',
@@ -705,10 +727,16 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'url' => 'http://feeds.dzone.com/big-data'
                     ],
                     [
-                        'label' => 'Cloud Zone',
+                        'label' => 'Career Development Zone ',
                         'description' => '',
-                        'slug' => 'cloud-zone',
-                        'url' => 'http://feeds.dzone.com/cloud'
+                        'slug' => 'career-development-zone',
+                        'url' => 'https://feeds.dzone.com/career-development'
+                    ],
+                    [
+                        'label' => 'Cloud Architecture Zone',
+                        'description' => '',
+                        'slug' => 'cloud-architecture-zone',
+                        'url' => 'https://feeds.dzone.com/cloud-architecture'
                     ],
                     [
                         'label' => 'Containers',
@@ -717,10 +745,22 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'url' => 'https://feeds.dzone.com/containers'
                     ],
                     [
+                        'label' => 'Data Zone',
+                        'description' => '',
+                        'slug' => 'data-zone',
+                        'url' => 'https://feeds.dzone.com/data'
+                    ],
+                    [
                         'label' => 'Database Zone',
                         'description' => '',
                         'slug' => 'database-zone',
-                        'url' => 'http://feeds.dzone.com/database'
+                        'url' => 'https://feeds.dzone.com/databases'
+                    ],
+                    [
+                        'label' => 'Deployment Zone',
+                        'description' => '',
+                        'slug' => 'deployment-zone',
+                        'url' => 'https://feeds.dzone.com/deployment'
                     ],
                     [
                         'label' => 'DevOps and CI/CD',
@@ -738,13 +778,13 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'label' => 'Integration',
                         'description' => 'Latest articles from Integration Zone',
                         'slug' => 'integration',
-                        'url' => 'http://feeds.dzone.com/integration'
+                        'url' => 'https://feeds.dzone.com/integration'
                     ],
                     [
                         'label' => 'IoT',
                         'description' => 'Latest articles from IoT Zone',
                         'slug' => 'iot',
-                        'url' => 'http://feeds.dzone.com/iot'
+                        'url' => 'https://feeds.dzone.com/iot'
                     ],
                     [
                         'label' => 'Java',
@@ -759,22 +799,34 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'url' => 'http://feeds.dzone.com/javascript'
                     ],
                     [
+                        'label' => 'Languages',
+                        'description' => '',
+                        'slug' => 'languages-zone',
+                        'url' => 'https://feeds.dzone.com/languages'
+                    ],
+                    [
+                        'label' => 'Maintenance ',
+                        'description' => '',
+                        'slug' => 'maintenance -zone',
+                        'url' => 'https://feeds.dzone.com/maintenance'
+                    ],
+                    [
                         'label' => 'Methodologies',
                         'description' => '',
                         'slug' => 'methodologies',
-                        'url' => 'http://feeds.dzone.com/microservices'
+                        'url' => 'https://feeds.dzone.com/methodologies'
+                    ],
+                    [
+                        'label' => 'Microservices',
+                        'description' => '',
+                        'slug' => 'microservices',
+                        'url' => 'https://feeds.dzone.com/microservices'
                     ],
                     [
                         'label' => 'Monitoring and Observability',
                         'description' => '',
                         'slug' => 'monitoring-and-observability',
                         'url' => 'https://feeds.dzone.com/monitoring-and-observability'
-                    ],
-                    [
-                        'label' => 'Microservices',
-                        'description' => '',
-                        'slug' => 'microservices',
-                        'url' => 'https://feeds.dzone.com/methodologies'
                     ],
                     [
                         'label' => 'Open Source',
@@ -786,19 +838,31 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'label' => 'Performance',
                         'description' => 'Latest articles from Performance Zone',
                         'slug' => 'performance',
-                        'url' => 'http://feeds.dzone.com/performance'
+                        'url' => 'https://feeds.dzone.com/performance'
                     ],
                     [
-                        'label' => 'Security',
+                        'label' => 'Publications',
+                        'description' => 'Latest DZone Research Guides and Refcardz',
+                        'slug' => 'publications',
+                        'url' => 'https://feeds.dzone.com/publications'
+                    ],
+                    [
+                        'label' => 'Security zone',
                         'description' => 'Latest articles from Security Zone',
                         'slug' => 'security',
-                        'url' => 'http://feeds.dzone.com/security'
+                        'url' => 'https://feeds.dzone.com/security'
                     ],
                     [
                         'label' => 'Team management',
                         'description' => '',
                         'slug' => 'team-management',
                         'url' => 'https://feeds.dzone.com/team-management'
+                    ],
+                    [
+                        'label' => ' Testing, Tools, and Frameworks Zone',
+                        'description' => '',
+                        'slug' => 'testing-tools-and-frameworks',
+                        'url' => 'https://feeds.dzone.com/testing-tools-and-frameworks'
                     ],
                     [
                         'label' => 'Tools',
@@ -811,12 +875,6 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'description' => 'Latest articles from Web Dev Zone',
                         'slug' => 'web-dev',
                         'url' => 'http://feeds.dzone.com/webdev'
-                    ],
-                    [
-                        'label' => 'Developer Marketing',
-                        'description' => 'Latest articles from our team for improving your developer marketing',
-                        'slug' => 'developer-marketing',
-                        'url' => 'http://feeds.dzone.com/developer-marketing'
                     ],
                 ],
             ],

@@ -31,6 +31,10 @@ Install Laravel and dependencies:
 
      php artisan test
 
+Generate test coverage (Xdebug PHP extension required):
+
+    php artisan test --coverage
+
 The application will be available at [http://localhost:8000](http://localhost:8000)
 
 ### Technologies used
@@ -79,7 +83,6 @@ Technical Improvements
 - Database migration: Migrate from PHP arrays to database with proper models and seeders
 - Admin interface: Develop administrative area for feed management
 - Performance optimization: Implement HTML, CSS, and JavaScript minification
-- Testing: Add comprehensive unit test coverage
 
 User Experience
 
