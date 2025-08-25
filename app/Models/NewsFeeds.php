@@ -349,7 +349,7 @@ class NewsFeeds implements FeedsListInterface
                         'url' =>  'http://www.ansa.it/canale_motori/notizie/motori_rss.xml'
                     ],
                     [
-                        'label' => 'Terra &amp; Gusto',
+                        'label' => 'Terra & Gusto',
                         'description' =>   '',
                         'slug' =>  'ansa-terra-and-gusto',
                         'url' =>  'http://www.ansa.it/canale_terraegusto/notizie/terraegusto_rss.xml'
