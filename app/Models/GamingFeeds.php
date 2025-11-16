@@ -119,10 +119,9 @@ class GamingFeeds implements FeedsListInterface
                 'rss' => 'https://corp.ign.com/feeds/',
                 'feeds' => [
                     [
-                        'label' => 'E3 Latest News',
-                        'slug' => 'e3-ign-news',
-                        'url' => 'http://feeds.ign.com/ign/e3-all',
-                        'description' => 'The latest news, previews, features, press conferences and videos from E3, the largest show dedicated to video games',
+                        'label' => 'IGN Italy news',
+                        'slug' => 'ign-italy-news',
+                        'url' => 'https://it.ign.com/feed.xml',
                         'keywords' => 'ign,articles,news,e3',
                     ],
                 ]

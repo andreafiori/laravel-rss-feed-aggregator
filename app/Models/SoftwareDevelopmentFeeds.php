@@ -8,8 +8,8 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
     {
         return [
             [
-                'label' => 'PHP software development',
-                'slug' => 'php-software-development',
+                'label' => 'PHP',
+                'slug' => 'php',
                 'nosorting' => true,
                 'feeds' => [
                     // [
@@ -711,7 +711,7 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                     [
                         'label' => 'AI\ML Zone',
                         'description' => 'Latest articles from AI Zone',
-                        'slug' => '/software-development/dzone/ai',
+                        'slug' => 'ai-ml-zone',
                         'url' => 'https://feeds.dzone.com/ai'
                     ],
                     [
@@ -723,7 +723,7 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                     [
                         'label' => 'Big Data Zone',
                         'description' => 'Latest articles from Big Data Zone',
-                        'slug' => '/software-development/dzone/big-data',
+                        'slug' => 'big-data-zone',
                         'url' => 'http://feeds.dzone.com/big-data'
                     ],
                     [
@@ -859,7 +859,7 @@ class SoftwareDevelopmentFeeds implements FeedsListInterface
                         'url' => 'https://feeds.dzone.com/team-management'
                     ],
                     [
-                        'label' => ' Testing, Tools, and Frameworks Zone',
+                        'label' => 'Testing, Tools, and Frameworks Zone',
                         'description' => '',
                         'slug' => 'testing-tools-and-frameworks',
                         'url' => 'https://feeds.dzone.com/testing-tools-and-frameworks'
