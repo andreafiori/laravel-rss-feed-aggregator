@@ -5,7 +5,7 @@ namespace App\Models;
 use App\Models\SoftwareDevelopmentFeeds;
 use App\Models\CybersecurityFeeds;
 use App\Models\GamingFeeds;
-use App\Models\AIFeeds;
+use App\Models\AiFeeds;
 use App\Models\NewsFeeds;
 
 class FeedAggregator

@@ -1,12 +1,5 @@
 <div class="position-sticky">
 
-    <!-- <div class="p-4 mb-3 bg-body-tertiary rounded">
-        <h4 class="fst-italic">About</h4>
-        <p class="mb-0">RSS feeds are still grat! A way to read information, news, and updates from the
-        greatest websites and applications of your interests. A great way to keep us updated
-        whenever we want without visiting multiple websites and saving a lot of time!</p>
-    </div> -->
-
     @php
         $routeName = Route::currentRouteName();
         $params = Route::current()->parameters();
@@ -75,7 +68,5 @@
             @endforeach
         </ul>
     </div>
-
-
 
 </div>
