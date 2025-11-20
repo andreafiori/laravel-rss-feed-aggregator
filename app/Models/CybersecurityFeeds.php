@@ -238,7 +238,7 @@ class CybersecurityFeeds implements FeedsListInterface
                     ],
                     [
                         'label'         => 'Schneier on Security',
-                        'slug'          => 'krebs-on-security',
+                        'slug'          => 'schneier-on-security',
                         'url'           => 'https://www.schneier.com/tag/cybersecurity/feed/',
                         'description'   => '',
                         'website'       => 'https://www.schneier.com/',
@@ -338,7 +338,6 @@ class CybersecurityFeeds implements FeedsListInterface
                         'youtube'       => 'https://www.youtube.com/c/EyeonTech',
                         'linkedin'      => 'https://www.linkedin.com/showcase/techtarget-news/',
                         'github'        => '',
-                        'keywords'      => '',
                     ],
                     [
                         'label'         => 'Security Gladiators',

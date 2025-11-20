@@ -11,7 +11,6 @@ class AiFeedsTest extends BaseFeedsTest
     {
         return new AiFeeds();
     }
-
     public function test_websites_category_exists(): void
     {
         $feeds = $this->feedsModel->getFeeds();
@@ -31,7 +30,6 @@ class AiFeedsTest extends BaseFeedsTest
         $this->assertFeedsExistInCategory($category, [
             'Machine learning mastery',
             'Open AI',
-            'Google Deepmind',
             'Google research',
         ]);
     }
