@@ -37,12 +37,6 @@ Generate test coverage (Xdebug PHP extension required):
 
 The application will be available at [http://localhost:8000](http://localhost:8000)
 
-### Technologies used
-
-- [PHP](https://www,php.net) - hypertext processor.
-- [Laravel](https://www,laravel.com) - the web framework for artisans.
-- [SimplePie])(https://simplepie.org) PHP RSS reader and XML parser.
-
 ### Laravel maintenance  commands
 
     php artisan route:cache
@@ -92,6 +86,18 @@ User Experience
 - Sidebar hidden on desktop, hamburger menu for mobile
 
 This project is actively maintained and continuously improved. The current version successfully aggregates multiple RSS feeds and provides a clean interface for content consumption. Future updates will focus on database integration, enhanced user interface, and administrative capabilities.
+
+## Technologies
+
+- [PHP 8.3](https://www,php.net) - hypertext processor.
+- [Laravel 12](https://www,laravel.com) - the web framework for artisans.
+- MySql
+- [Filament 4](https://filamentphp.com/) Server Driven UI
+- [PestPHP](https://pestphp.com/)
+- [Livewire](https://laravel-livewire.com/)
+- [SimplePie](https://simplepie.org) PHP RSS reader and XML parser.
+
+### Technologies used
 
 ## Author
 
